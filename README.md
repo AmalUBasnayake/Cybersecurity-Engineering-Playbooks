@@ -2,6 +2,18 @@
 
 <img src="assets/series-02-banner.png" alt="Cybersecurity Engineering Playbooks — Series 02" width="100%">
 
+<br><br>
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Engineering-0A66C2?style=for-the-badge)
+![Cloud Security](https://img.shields.io/badge/Cloud-Security-0078D4?style=for-the-badge)
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge)
+![Microsoft Security](https://img.shields.io/badge/Microsoft-Security-5E5E5E?style=for-the-badge)
+<br>
+![Playbooks](https://img.shields.io/badge/Playbooks-12-00BFFF?style=for-the-badge)
+![Hands-On](https://img.shields.io/badge/Hands--On-Labs-00A86B?style=for-the-badge)
+![Detection](https://img.shields.io/badge/Detection-Engineering-8A2BE2?style=for-the-badge)
+![Status](https://img.shields.io/badge/Series-02-orange?style=for-the-badge)
+</div>
+
 # 🛡️ Cybersecurity Engineering Playbooks
 
 ### Series 02 — From Security Concepts to Engineering Decisions
