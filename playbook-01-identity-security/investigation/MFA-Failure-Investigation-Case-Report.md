@@ -4,7 +4,7 @@
 **Case ID:** P01-IR-001  
 **Investigation date:** 13 October 2026  
 **Environment:** Dedicated lab tenant  
-**Identity under investigation:** `lab-reader@amaludayangalive.onmicrosoft.com`  
+**Identity under investigation:** `lab-reader@am************.onmicrosoft.com`  
 **Primary event time:** 2 October 2026, 02:01:51 UTC  
 **Status:** Investigation documented; no confirmed compromise
 
