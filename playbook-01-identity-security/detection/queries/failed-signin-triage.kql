@@ -1,0 +1,15 @@
+// Draft: Failed Sign-in Triage
+// Status: Not yet validated against live workspace data
+
+SigninLogs
+| where TimeGenerated >= ago(7d)
+| where ResultType != 0
+| project
+    TimeGenerated,
+    UserPrincipalName,
+    AppDisplayName,
+    ResultType,
+    ResultDescription,
+    AuthenticationRequirement,
+    ConditionalAccessStatus
+| order by TimeGenerated desc
