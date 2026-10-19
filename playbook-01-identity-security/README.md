@@ -191,6 +191,18 @@ Contain / Escalate
 9. What related activity occurred?
 10. What containment action is required?
 
+    ## 📄 Investigation Reports
+
+### MFA Authentication Failure Investigation
+
+This investigation examines an interrupted Microsoft Entra ID sign-in in which password authentication succeeded, but the mobile app authentication step was unsuccessful.
+
+The investigation reviews the authentication details and Security Defaults MFA evaluation, documents the findings, and identifies the limitations of the available evidence.
+
+**Key finding:** An interrupted sign-in is not, by itself, proof of account compromise. Authentication details and relevant sign-in context must be correlated before drawing conclusions.
+
+📄 **[Read the MFA Failure Investigation Case Report](investigation/MFA-Failure-Investigation-Case-Report.md)**
+
 ## 🚨 Response Workflow
 
 ```text
