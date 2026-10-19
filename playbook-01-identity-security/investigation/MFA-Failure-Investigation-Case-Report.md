@@ -1,6 +1,6 @@
-# MFA Failure Investigation — Case Report
+# MFA Failure Investigation - Case Report
 
-**Project:** Amal Cyber Lab — Playbook 01: Microsoft Entra ID Security Engineering  
+**Project:** Amal Cyber Lab - Playbook 01: Microsoft Entra ID Security Engineering  
 **Case ID:** P01-IR-001  
 **Investigation date:** 13 October 2026  
 **Environment:** Dedicated lab tenant  
@@ -39,23 +39,23 @@ The review used the Microsoft Entra sign-in event details previously captured in
 
 ## 4. Findings
 
-### Finding 1 — Password step succeeded
+### Finding 1 - Password step succeeded
 
 The authentication details in Evidence 54 show that the correct password step succeeded. This means the event was not recorded as a password-step failure in that authentication sequence.
 
-### Finding 2 — Mobile-app authentication did not succeed
+### Finding 2 - Mobile-app authentication did not succeed
 
 The same evidence shows that the mobile-app authentication step did not succeed. The overall sign-in was interrupted rather than completed successfully.
 
-### Finding 3 — Security Defaults MFA evaluation returned Failure
+### Finding 3 - Security Defaults MFA evaluation returned Failure
 
 Evidence 55 records the Security Defaults MFA grant control with a result of Failure. This is the most direct evidence for the failed MFA-related control evaluation in the investigated event.
 
-### Finding 4 — A successful event provides a useful comparator, not proof of device trust
+### Finding 4 - A successful event provides a useful comparator, not proof of device trust
 
 Evidence 31–36 includes a successful sign-in where the MFA requirement was satisfied by a claim in the token. The recorded device context for successful sign-ins was unmanaged and non-compliant. Consequently, the available evidence does not support treating device compliance alone as the explanation for the different outcomes.
 
-### Finding 5 — The available evidence is insufficient to confirm compromise
+### Finding 5 - The available evidence is insufficient to confirm compromise
 
 An interrupted sign-in and unsuccessful MFA step can occur for benign reasons as well as during suspicious activity. The screenshots reviewed do not, by themselves, establish attacker involvement, successful unauthorized access, or compromise of the account.
 
