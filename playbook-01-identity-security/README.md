@@ -191,6 +191,7 @@ Contain / Escalate
 9. What related activity occurred?
 10. What containment action is required?
 
+
     ## 📄 Investigation Reports
 
 ### MFA Authentication Failure Investigation
@@ -303,10 +304,10 @@ Microsoft Entra ID • Microsoft Azure • Microsoft 365 • Conditional Access 
 | Security Controls | 🔄 In Progress |
 | Hands-On Lab | 🔄 In Progress |
 | Detection | ⏳ Pending |
-| Investigation | ⏳ Pending |
+| Investigation | 🔄 In Progress - MFA failure case documented|
 | Response | ⏳ Pending |
-| Evidence | ⏳ Pending |
-| Final Documentation | ⏳ Pending |
+| Evidence | 🔄 In Progress - Evidence captured; organization ongoing |
+| Final Documentation | 🔄 In Progress - Case report added; final review pending |
 
 ## 🔗 Series Connection
 
